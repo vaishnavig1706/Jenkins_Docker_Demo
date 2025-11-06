@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/jenkins-docker-demo.git'
+                git 'https://github.com/<vaishnavig1706>/jenkins-docker-demo.git'
             }
         }
 
@@ -58,5 +58,6 @@ pipeline {
         }
     }
 }
+
 
 
